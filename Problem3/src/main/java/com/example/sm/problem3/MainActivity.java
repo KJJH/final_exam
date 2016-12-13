@@ -84,6 +84,18 @@ class Manager extends Person{
     void sort(){ // 직접 소팅 알고리즘을 이용하여 코딩해야함. 자바 기본 정렬 메소드 이용시 감
 
         // need something here
+        // Bubble sort
+        int temp;
+        for(int i=0; i<list.size()-1; i++){
+            for(int j=1; j<list.size(); j++){
+                if(list[j] < list[j-1]){
+                    temp = list[j];
+                    list[j] = list[j-1];
+                    list[j-1] = temp;
+                }
+            }
+        }
+
 
     }
 

@@ -32,23 +32,25 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Employee employee;
 
         switch (v.getId()){
-            case R.id.btn_inc:
+            case R.id.btn_inc:   // +
+                // need something here
+                break;
+            case R.id.btn_dec:   // -
                 // need something here
                 break;
 
-            case R.id.btn_dec:
+            case R.id.btn_store:    // CREATE
+                // need something here
+                edit_name.getText();
+                edit_age.getText();
+                edit_salary.getText();
+                break;
+
+            case R.id.btn_modify:   // UPDATE
                 // need something here
                 break;
 
-            case R.id.btn_store:
-                // need something here
-                break;
-
-            case R.id.btn_modify:
-                // need something here
-                break;
-
-            case R.id.btn_delete:
+            case R.id.btn_delete:   // DELETE
                 // need something here
                 break;
         }
